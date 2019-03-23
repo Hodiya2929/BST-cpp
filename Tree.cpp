@@ -164,7 +164,7 @@ else curr=curr->right;
 throw "Tree dosen't contains the inserted value";
 }
 
-bool ariel::Tree::isEmpty(Node *node){
+bool ariel::Tree::isEmpty(Node *node) const{
 return(node==nullptr);
 }
 

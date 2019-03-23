@@ -135,7 +135,7 @@ delete node;
     int left(int key) const;
     int right(int key) const;
     void print(); 
-    bool isEmpty(Node *node);
+    bool isEmpty(Node *node) const;
     int findMin(Node *node) const;
 
 };
