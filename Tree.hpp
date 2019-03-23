@@ -129,7 +129,7 @@ delete node;
     void insert(int key);
     int remove(int key); 
     int size() const; 
-    bool contains (int key);
+    bool contains (int key) const;
     int root() const;
     int parent(int key) const;
     int left(int key) const;

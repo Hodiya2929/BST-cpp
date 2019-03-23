@@ -123,7 +123,7 @@ if(this->Troot==nullptr){
 return Troot->data;
 }
 
-bool ariel::Tree::contains(int key){
+bool ariel::Tree::contains(int key) const{
 
 Node *curr=this->Troot;
 
